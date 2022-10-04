@@ -11,3 +11,6 @@ public class CarritoApplication {
 	}
 
 }
+/**
+ * tExp = 100 / ISO * F^2 / 16^2 * 0,01s
+ */
