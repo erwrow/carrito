@@ -1,0 +1,22 @@
+<div style="border: 1px solid black; margin: 10px; padding: 5px;">
+
+    <div>
+        <img src="{{carritoData.articulo.imagen}}" alt="{{carritoData.articulo.descripcion}}" style="width:100%;">
+    </div>
+    <div>
+        {{carritoData.articulo.descripcion}}
+    </div>
+    <div>
+        {{carritoData.articulo.monto}}
+    </div>
+    <div>
+        {{carritoData.cantidad}}
+    </div>
+    <div>
+        {{carritoData.subTotal}}
+    </div>
+    <div>
+        <button (click)="sacarItem()">Quitar del carrito</button>
+    </div>
+
+</div>

@@ -1,0 +1,16 @@
+<div style="border: 1px solid black; margin: 10px; padding: 5px;">
+
+    <div>
+        <img src="{{articulo.imagen}}" alt="{{articulo.descripcion}}" style="width:100%;">
+    </div>
+    <div>
+        {{articulo.descripcion}}
+    </div>
+    <div>
+        {{articulo.monto}}
+    </div>
+    <div>
+        <button (click)="enviarItem()">Agregar al carrito</button>
+    </div>
+
+</div>

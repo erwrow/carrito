@@ -42,7 +42,7 @@ public class MapperService {
         try {
             JSONObject tmp = getObjetcValueJSON(eJSON, "usuario");
             if(!tmp.isEmpty()) {
-                c.setUsuario(JSONAUsuario(tmp));
+                //c.setUsuario(JSONAUsuario(tmp));
             }
         } catch (Exception e) {
             System.out.println("Excepción al mapear mapper.JSONACarrito.usuario");
